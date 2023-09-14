@@ -1,0 +1,40 @@
+
+body{
+    background-color:pink;
+    height: 100vh;
+   display: flex;
+   justify-content:center;
+   align-items:center;
+
+}
+
+
+
+
+.spread span
+{
+   font-size: 68px;
+   color:rgb(59, 4, 4);
+   font-weight: bold;
+   font-family:Times New Roman;
+   transition: all .2s ease-in-out;
+   display: inline-block;
+   text-transform:uppercase;
+   cursor:pointer;
+
+}
+
+.spread span:hover
+{
+    transform: translateY(-50px)rotate(1deg)scale(2);
+}
+
+
+
+
+
+
+
+
+
+
